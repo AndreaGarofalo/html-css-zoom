@@ -27,25 +27,63 @@ body {
 
 header {
     height: 60px;
+    padding-top: 5px;
 }
 
 .screen-view {
     justify-content: end;
-    padding: 5px;
-    margin-top: 10px;
     color: white;
-    
+    font-size: 11px;
 }
 
 .speaker-view {
     padding: 5px;
-    background-color: gray;
+    background-color: #4a4a4a;
     border-radius: 5px;
     margin-right: 5px;
 }
 
 .fullscreen {
     padding: 5px;
-    background-color: gray;
+    background-color: #4a4a4a;
     border-radius: 5px;
+}
+
+/* main */
+
+main {
+    height: calc(100vh - 120px);
+    width: 100vw;
+    overflow-y: auto;
+}
+
+.webcam {
+    margin: 0 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.webcam-card {
+    position: relative;
+    margin: 5px 2px;
+}
+
+.user-info {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(94, 107, 120, 0.5);
+}
+
+img {
+    height: 150px;
+    width: 250px;
+    display: block;
+}
+
+footer {
+    height: 60px;
+    background-color: #222222;
 }
