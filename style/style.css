@@ -93,7 +93,7 @@ footer {
 }
 
 .footer-left {
-    width: 25%;
+    flex-basis: 25%;
 }
 
 .icons {
@@ -116,10 +116,22 @@ footer .arrow {
 
 
 .footer-center {
-    width: 50%;
+    flex-basis: 50%;
     justify-content: center;
 }
 
 .fa-share-from-square {
     color: #4bc800;
+}
+
+.footer-right {
+    flex-basis: 25%;
+    justify-content: end;
+    line-height: 60px;
+}
+
+.end-button {
+    background-color: #4a4a4a;
+    color: red;
+    padding: 0 20px;
 }
