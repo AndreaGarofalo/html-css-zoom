@@ -10,17 +10,17 @@
 
 body {
     background-color: black;
-}
-
-.container {
-    width: 1600px;
-    margin: 0 auto;
+    color: white;
 }
 
 /* utility */
 
 .flex {
     display: flex;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 /* header */
@@ -32,8 +32,8 @@ header {
 
 .screen-view {
     justify-content: end;
-    color: white;
     font-size: 11px;
+    padding: 0 5px;
 }
 
 .speaker-view {
@@ -41,14 +41,12 @@ header {
     background-color: #4a4a4a;
     border-radius: 5px;
     margin-right: 5px;
-    cursor: pointer;
 }
 
 .fullscreen {
     padding: 5px;
     background-color: #4a4a4a;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 /* main */
@@ -76,7 +74,6 @@ main {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    color: white;
     background-color: rgba(94, 107, 120, 0.5);
 }
 
@@ -88,7 +85,30 @@ img {
     display: block;
 }
 
+/* footer */
+
 footer {
     height: 60px;
     background-color: #222222;
+}
+
+.icons {
+    padding: 0 5px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icons i {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.arrow {
+    margin: 0 5px;
+    line-height: 60px;
+}    
+
+.footer-left {
+    width: 25%;
 }
