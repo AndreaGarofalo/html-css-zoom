@@ -1,0 +1,51 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* utility */
+
+.flex {
+    display: flex;
+}
+
+/* header */
+
+header {
+    height: 60px;
+}
+
+.screen-view {
+    justify-content: end;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+.speaker-view {
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.fullscreen {
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+}
