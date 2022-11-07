@@ -66,6 +66,8 @@ main {
 }
 
 .webcam-card {
+    height: 150px;
+    width: 250px;
     position: relative;
     margin: 5px 2px;
 }
@@ -83,8 +85,6 @@ main {
 }
 
 img {
-    height: 150px;
-    width: 250px;
     display: block;
 }
 
