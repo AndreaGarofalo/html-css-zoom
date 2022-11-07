@@ -92,6 +92,10 @@ footer {
     background-color: #222222;
 }
 
+.footer-left {
+    width: 25%;
+}
+
 .icons {
     padding: 0 10px;
     padding-top: 10px;
@@ -104,11 +108,18 @@ footer {
     padding-bottom: 5px;
 }
 
-.arrow {
-    margin: 0 10px;
+footer .arrow {
+    margin: 0 5px;
     line-height: 60px;
+    font-size: 12px;
 }    
 
-.footer-left {
-    width: 25%;
+
+.footer-center {
+    width: 50%;
+    justify-content: center;
+}
+
+.fa-share-from-square {
+    color: #4bc800;
 }
